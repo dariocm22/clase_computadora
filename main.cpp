@@ -11,16 +11,21 @@ int main() {
     c2.setMem_ram(16);
     c2.setAlmcn(1056);
 
-    cout << c2.getMarca() << endl;
-    cout << c2.getSistema_op() << endl;
-    cout << c2.getMem_ram() << endl;
-    cout << c2.getAlmcn() << endl;
-
     Laboratorio cp;
 
-    cp.agregarFinal(c1);
-    cp.agregarFinal(c2);
+    //cp.agregarFinal(c1);
+    //cp.agregarFinal(c2);
+
+    cp << c1 << c2;
+
+    //cout << c1;
+
     cp.mostrar();
+
+    //cout << c2.getMarca() << endl;
+    //cout << c2.getSistema_op() << endl;
+    //cout << c2.getMem_ram() << endl;
+    //cout << c2.getAlmcn() << endl;
 
     return 0;
 }
