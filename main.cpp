@@ -21,6 +21,8 @@ int main() {
     //cout << c1;
 
     cp.mostrar();
+    cp.respaldar_tabla();
+    cp.respaldar();
 
     //cout << c2.getMarca() << endl;
     //cout << c2.getSistema_op() << endl;
