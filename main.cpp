@@ -3,7 +3,11 @@
 
 
 int main() {
-    Computadora c1 = Computadora("HP", "Windows 10", 8, 256);
+    Laboratorio c;
+    c.recuperar();
+    c.mostrar();
+    
+    /*Computadora c1 = Computadora("HP", "Windows 10", 8, 256);
 
     Computadora c2;
     c2.setMarca("Lenovo");
@@ -27,7 +31,7 @@ int main() {
     //cout << c2.getMarca() << endl;
     //cout << c2.getSistema_op() << endl;
     //cout << c2.getMem_ram() << endl;
-    //cout << c2.getAlmcn() << endl;
+    //cout << c2.getAlmcn() << endl; */
 
     return 0;
 }
